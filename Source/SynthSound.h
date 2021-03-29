@@ -22,5 +22,5 @@ public:
     
     bool appliesToChannel (int midiChannel) override {return true;}
     
-}
+};
 

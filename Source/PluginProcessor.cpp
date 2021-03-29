@@ -22,6 +22,8 @@ TapSynthAudioProcessor::TapSynthAudioProcessor()
                        )
 #endif
 {
+    synth.addSound(new SynthSound());
+    synth.addVoice(new SynthVoice());
 }
 
 TapSynthAudioProcessor::~TapSynthAudioProcessor()
