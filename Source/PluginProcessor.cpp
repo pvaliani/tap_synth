@@ -159,8 +159,9 @@ void TapSynthAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juc
 //            ADSR
 //            LFO
             }
-        synth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
+
         }
+    synth.renderNextBlock(buffer, midiMessages, 0, buffer.getNumSamples());
 
 }
 
